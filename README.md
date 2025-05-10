@@ -2,8 +2,11 @@
 
 from Blagovest Kambarev
 
+In development!!
+В процес на разработка!!
 
-## Author
+
+## Author / Автор
 
 Blagovest Kambarev 09.05.2025
 

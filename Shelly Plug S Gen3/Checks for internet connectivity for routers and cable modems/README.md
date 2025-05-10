@@ -2,21 +2,27 @@
 
 from Blagovest Kambarev
 
+In development!!
+В процес на разработка!!
+
+This Shelly script monitors internet connectivity and performs a relay off-on cycle if there is no internet connection for a specified number of checks. It also adds a scheduled task for automatically rebooting the router or modem at night or at a user-defined time.
+The main purpose of this script is to connect your internet router or cable modem through the Shelly Plug S Gen3 device and automatically restart the router or modem if the internet connection is lost.
+
 Този Shelly скрипт следи интернет свързаността и извършва цикъл изключване-включване на релето, ако няма интернет връзка за определен брой проверки. Също добавя и таск за автоматичното рестартиране на рутера или модема през нощя или желано от вас време.
 Основната цел на този скрипт е да свърже вашия интернет рутер или кабелен модем през устройството Shelly Plug S Gen3 и автоматично да рестартира рутера или кабелния модем, ако интернет връзката прекъсне.
 
-## Функционалности
+## Features / Функционалности
 
--	Периодични проверки на интернет свързаността.
--	Извършва цикъл изключване-включване на релето на Shelly след определен брой неуспешни проверки за интернет.
--	Скриптът се стартира автоматично при включване на устройството.
-- Скриптът при стартиране автоматично конфигурира Shelly Plug S Gen3 устройствота за да извърпва работата за която е предназначено.
-- Скриптът създава времеви таск за рестартиране на Рутера или Модема в определен час.
+-	Periodic internet connectivity checks. / Периодични проверки на интернет свързаността.
+-	Performs a Shelly relay off-on cycle after a specified number of failed internet checks. / Извършва цикъл изключване-включване на релето на Shelly след определен брой неуспешни проверки за интернет.
+-	The script starts automatically when the device is powered on. / Скриптът се стартира автоматично при включване на устройството.
+- Upon startup, the script automatically configures Shelly Plug S Gen3 devices to perform their intended function. / Скриптът при стартиране автоматично конфигурира Shelly Plug S Gen3 устройствота за да извърпва работата за която е предназначено.
+- The script creates a scheduled task to reboot the router or modem at a specific time. / Скриптът създава времеви таск за рестартиране на Рутера или Модема в определен час.
 
 ## Installation
 
-1. Copy the contents of `Checks for internet connectivity for routers and cable modems.js` to your Shelly device's script editor.
-2. Configure the following settings:   
+1. Copy the contents of `Checks for internet connectivity for routers and cable modems.js` to your Shelly device's script editor. / Копирайте съдържанието на `Checks for internet connectivity for routers and cable modems.js` във вградения редактор на скриптове на вашето Shelly устройство.
+2. Configure the following settings / Конфигурирайте следните настройки:   
    - `numberOfFails`: 
      By default: 3
    - `httpTimeout` : 
@@ -34,7 +40,7 @@ from Blagovest Kambarev
    - `waitTimeToFirstStartCheckInternet` : 
      By default: 600
 
-## Author
+## Author / Автор
 
 Blagovest Kambarev 09.05.2025
 
