@@ -1,6 +1,6 @@
-# Checks for internet connectivity for routers and cable modems
+# Checks for internet connectivity for routers and cable modems / Проверява интернет свързаността за рутери и кабелни модеми
 
-from Blagovest Kambarev
+from / от: Blagovest Kambarev
 
 In development!!
 В процес на разработка!!
@@ -19,7 +19,7 @@ The main purpose of this script is to connect your internet router or cable mode
 - Upon startup, the script automatically configures Shelly Plug S Gen3 devices to perform their intended function. / Скриптът при стартиране автоматично конфигурира Shelly Plug S Gen3 устройствота за да извърпва работата за която е предназначено.
 - The script creates a scheduled task to reboot the router or modem at a specific time. / Скриптът създава времеви таск за рестартиране на Рутера или Модема в определен час.
 
-## Installation
+## Installation / Инсталация
 
 1. Copy the contents of `Checks for internet connectivity for routers and cable modems.js` to your Shelly device's script editor. / Копирайте съдържанието на `Checks for internet connectivity for routers and cable modems.js` във вградения редактор на скриптове на вашето Shelly устройство.
 2. Configure the following settings / Конфигурирайте следните настройки:   
